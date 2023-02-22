@@ -272,9 +272,9 @@ GameObject:
   - component: {fileID: 1693510281316085314}
   - component: {fileID: 1705856641758986609}
   - component: {fileID: 8263936430306260303}
-  - component: {fileID: 440301851783215290}
   - component: {fileID: 4679954536181650123}
   - component: {fileID: 1292347384969296884}
+  - component: {fileID: 2383685664073415426}
   m_Layer: 0
   m_Name: PlateIconUI
   m_TagString: Untagged
@@ -365,20 +365,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &440301851783215290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8754882001793366323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4f9fa4579ddf6d41a663e82388d9d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plateKitchenObject: {fileID: -5849415585324117160}
-  iconTemplate: {fileID: 7234666350298541061}
 --- !u!114 &4679954536181650123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,6 +402,20 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &2383685664073415426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8754882001793366323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f9fa4579ddf6d41a663e82388d9d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plateKitchenObject: {fileID: -5849415585324117160}
+  iconTemplate: {fileID: 7234666350298541061}
 --- !u!1001 &3530535619389716068
 PrefabInstance:
   m_ObjectHideFlags: 0
